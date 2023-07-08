@@ -442,6 +442,7 @@ https://www.tooplate.com/view/2124-vertex
                     Pellentesque nec dui pellentesque, fermentum turpis eu, facilisis libero. Vestibulum fringilla nulla augue, at consequat metus facilisis condimentum.
                 </p> 
                 <form id="contact-form" action="" method="POST" class="tm-contact-form tm-mb-200">
+                    {% csrf_token %}
                     <div class="form-group">
                         <input type="text" name="name" class="form-control rounded-0" placeholder="Name" required />
                     </div>
